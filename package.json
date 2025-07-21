@@ -15,7 +15,7 @@
   "dependencies": {
     "@random-guys/eventbus": "^2.0.1",
     "@random-guys/gateman": "^2.0.0",
-    "@random-guys/iris": "^1.0.3",
+    "@random-guys/iris": "^1.1.1",
     "amqplib": "^0.5.3",
     "bcrypt": "^3.0.7",
     "bunyan": "^1.8.12",
@@ -34,7 +34,7 @@
     "mongoose-autopopulate": "^0.9.0",
     "redis": "^2.8.0",
     "reflect-metadata": "^0.1.12",
-    "response-time": "^2.3.2",
+    "response-time": "^2.3.4",
     "typescript": "^3.2.2",
     "uuid": "^3.3.2"
   },
