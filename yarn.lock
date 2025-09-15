@@ -69,12 +69,12 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
-"@random-guys/eventbus@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@random-guys/eventbus/-/eventbus-2.0.1.tgz#8eaa1e5edac88844a3b4443f5b7b13c03324f4c6"
-  integrity sha512-LE2KV6By+f6r3fzSBDYR1DJrOJNJH1qx6URC/qWGAb3od2EHiyPTHmEKrmK46Y4OzDlFsBJDYJolwKAWbPdLxQ==
+"@random-guys/eventbus@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@random-guys/eventbus/-/eventbus-2.2.1.tgz#f572991b4c532797a241f2c501b71e158b3698d8"
+  integrity sha512-d0BCDDVbQSeEZrk/zIaBmvLqYm9N7NP8u1Z70nFFBi5/HXDN4H4CMQVxrWNhWf1YQuuTJLKimO06XYFyKeBcxQ==
   dependencies:
-    amqplib "^0.5.3"
+    amqplib "^0.10.9"
 
 "@random-guys/gateman@^2.0.0":
   version "2.0.0"
@@ -510,6 +510,14 @@ ajv@^6.5.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+amqplib@^0.10.9:
+  version "0.10.9"
+  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.9.tgz#5b744c21d624f9307d0399e4d339b7354675831c"
+  integrity sha512-jwSftI4QjS3mizvnSnOrPGYiUnm1vI2OP1iXeOUz5pb74Ua0nbf6nPyyTzuiCLEE3fMpaJORXh2K/TQ08H5xGA==
+  dependencies:
+    buffer-more-ints "~1.0.0"
+    url-parse "~1.5.10"
 
 amqplib@^0.5.3:
   version "0.5.5"
@@ -6523,6 +6531,14 @@ url-parse@~1.4.3:
   version "1.4.7"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.4.7.tgz#a8a83535e8c00a316e403a5db4ac1b9b853ae278"
   integrity sha512-d3uaVyzDB9tQoSXFvuSUNFibTd9zxd2bkVrDRvF5TmvWWQwqE4lgYJ5m+x1DbecWkw+LK4RNl2CU1hHuOKPVlg==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
+
+url-parse@~1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
   dependencies:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
